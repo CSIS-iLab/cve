@@ -368,7 +368,6 @@ AmCharts.ready(function() {
 	map = new AmCharts.AmMap();
   	map.pathToImages = "http://www.amcharts.com/lib/3/images/";
 
-	map.addTitle("Terrorism Incidents by Country 2015", 14);
 	map.addTitle("Source: CSIS CVE | Data: START Global Terrorism Database", 11);
 	map.areasSettings = {
 		unlistedAreasColor: "#ffffff",
