@@ -291,7 +291,7 @@ var mapData = [
 {"code":"CI" , "name":"Cote d'Ivoire", "value":4, "color":"#ffffff"},
 {"code":"JP" , "name":"Japan", "value":10, "color":"#ffffff"},
 {"code":"JO" , "name":"Jordan", "value":4, "color":"#ffffff"},
-{"code":"KE" , "name":"Kenya", "value":68, "color":"#0095AB "},
+{"code":"KE" , "name":"Kenya", "value":68, "color":"#0065a4"},
 {"code":"XK" , "name":"Kosovo", "value":2, "color":"#ffffff"},
 {"code":"KW" , "name":"Kuwait", "value":1, "color":"#ffffff"},
 {"code":"KG" , "name":"Kyrgyzstan", "value":2, "color":"#ffffff"},
