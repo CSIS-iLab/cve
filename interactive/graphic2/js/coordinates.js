@@ -368,7 +368,7 @@ AmCharts.ready(function() {
 	map = new AmCharts.AmMap();
   	map.pathToImages = "http://www.amcharts.com/lib/3/images/";
 
-	map.addTitle("Source: CSIS CVE | Data: START Global Terrorism Database", 11);
+	
 	map.areasSettings = {
 		unlistedAreasColor: "#ffffff",
 		unlistedAreasAlpha: 0.1
