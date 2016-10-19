@@ -21,8 +21,8 @@ $(function () {
                     }
               },
               credits: {
-                text: 'CSIS/Beyond Parallel',
-                href: 'https://beyondparallel.csis.org'
+                text: '',
+                href: ''
               },
               yAxis: {
   plotLines: [{
