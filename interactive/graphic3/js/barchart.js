@@ -24,6 +24,11 @@ $(function() {
           fontSize: '10px'
         }
       },
+    
+     title: {
+        enabled: false,
+        },
+    
       xAxis: {
         labels: {
           style: {
