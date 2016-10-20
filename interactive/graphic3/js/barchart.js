@@ -1,6 +1,6 @@
 $(function() {
   Highcharts.setOptions({
-      colors: ['#0095AB', '#e51d26 ']
+      colors: ['#0095AB', '#004165 ']
   });
   $('#hcContainer').highcharts({
     data: {
