@@ -45,7 +45,7 @@ $(function() {
       xAxis: {
         labels: {
           style: {
-            color: '#ffffff',
+            color: '#353535',
             fontSize: '14px'
           }
         },
@@ -58,7 +58,7 @@ $(function() {
         labels: {
           enabled: true,
           style: {
-            color: '#ffffff',
+            color: '#353535',
             fontSize: '14px'
           }
         },
