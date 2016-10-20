@@ -9,7 +9,7 @@ $(function() {
 
       chart: {
         type: 'column',
-        backgroundColor: '#272b31',
+        backgroundColor: '#ffffff',
         border: 'none',
         color: '#000',
         plotShadow: true
@@ -20,12 +20,13 @@ $(function() {
         text: 'CSIS CVE | Source: Mark Penn',
         style: {
           cursor: 'pointer',
-          color: '#ffffff',
+          color: '#353535',
           fontSize: '10px'
         }
       },
 
       title: {
+        enabled: false,
         text: "Violent Extremism Seen as a Major Problem in Most Countries",
         style: {
           color: '#ffffff',
@@ -35,6 +36,7 @@ $(function() {
         }
       },
       subtitle: {
+         enabled: false,
         text: 'Overall, around two-thirds see violent extremism as being a major problem in their country.',
         style: {
           color: '#ffffff',
@@ -94,17 +96,17 @@ $(function() {
           text: 'Source<br/><span style="font-size: 9px; color: #666; font-weight: normal">(Click to hide)</span>',
           style: {
             fontStyle: 'italic',
-            color: '#ffffff'
+            color: '#353535'
           }
         },
         align: 'left',
         verticalAlign: 'bottom',
         layout: 'horizontal',
         itemStyle: {
-          color: '#ffffff'
+          color: '#353535'
         },
         itemHoverStyle: {
-          color: '#ffffff'
+          color: '#353535'
         }
       },
 
