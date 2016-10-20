@@ -286,7 +286,7 @@ var mapData = [
 {"code":"IR" , "name":"Iran", "value":9, "color":"#ffffff"},
 {"code":"IQ" , "name":"Iraq", "value":2742, "color":"#de4c4f"},
 {"code":"IE" , "name":"Ireland", "value":29, "color":"#ffffff"},
-{"code":"IL" , "name":"Israel", "value":58, "color":"#0095AB "},
+{"code":"IL" , "name":"Israel", "value":58, "color":"#ffffff "},
 {"code":"IT" , "name":"Italy", "value":5, "color":"#ffffff"},
 {"code":"CI" , "name":"Cote d'Ivoire", "value":4, "color":"#ffffff"},
 {"code":"JP" , "name":"Japan", "value":10, "color":"#ffffff"},
@@ -368,10 +368,10 @@ AmCharts.ready(function() {
 	map = new AmCharts.AmMap();
   	map.pathToImages = "http://www.amcharts.com/lib/3/images/";
 
-	
+
 	map.areasSettings = {
-		unlistedAreasColor: "#ffffff",
-		unlistedAreasAlpha: 0.1
+		unlistedAreasColor: "#353535",
+		unlistedAreasAlpha: 0.7
 	};
 	map.imagesSettings.balloonText = "<span style='font-size:14px;'><b>[[title]]</b>: [[value]] incidents</span>";
 
