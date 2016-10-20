@@ -1,17 +1,21 @@
-#videosList {
- max-width: 200;
-  overflow: hidden;
+.player {
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 900px;
+    min-width: 320px;
 }
-
-.video {
-  background-image: url("https://csis-ilab.github.io/cve/video/pandith/pandith.png");
-   background-repeat: no-repeat;
-  height: 300px;
-  margin-bottom: 50px;
-    background-position: right;
+.mediaplayer {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16/9 */
 }
-
-/* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
-    display:none !important;
+.mediaplayer video, .mediaplayer .polyfill-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
