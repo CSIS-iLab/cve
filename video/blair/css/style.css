@@ -19,6 +19,9 @@ video::-webkit-media-controls {
 
 video {
 display:none;
-
   }
+.video {
+      background-position: center;
+}
+
 }
