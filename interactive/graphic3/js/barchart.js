@@ -24,24 +24,6 @@ $(function() {
           fontSize: '10px'
         }
       },
-
-      title: {
-        enabled: false,
-        text: "Violent Extremism Seen as a Major Problem in Most Countries",
-        style: {
-          color: '#ffffff',
-          fontWeight: '500',
-          fontSize:'24px',
-          letterSpacing: '0.5px'
-        }
-      },
-      subtitle: {
-         enabled: false,
-        text: 'Overall, around two-thirds see violent extremism as being a major problem in their country.',
-        style: {
-          color: '#ffffff',
-        }
-      },
       xAxis: {
         labels: {
           style: {
