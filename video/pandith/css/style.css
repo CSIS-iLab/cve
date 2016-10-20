@@ -1,0 +1,17 @@
+#videosList {
+ max-width: 200;
+  overflow: hidden;
+}
+
+.video {
+  background-image: url("https://csis-ilab.github.io/cve/video/pandith/pandith.png");
+   background-repeat: no-repeat;
+  height: 300px;
+  margin-bottom: 50px;
+    background-position: right;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
