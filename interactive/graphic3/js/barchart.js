@@ -26,7 +26,7 @@ $(function() {
       },
     
      title: {
-        enabled: false,
+        text:''
         },
     
       xAxis: {
