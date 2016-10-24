@@ -91,11 +91,11 @@ itemStyle: {
     },
         series: [{
             name: 'Radical Islamic Fundamentalists',
-            color:'rgba(101, 200, 205, 1)',
+            color:'rgba(0, 149, 171, 1)',
             data: [70, 61, 62, 47, 44,30,30,15]
         }, {
             name: 'Those who want to make Islam look bad',
-            color:'rgba(229, 29, 38, 1)',
+            color:'rgba(53, 53, 53, 1)',
             data: [8, 5, 10, 10,9,43,48,55]
 
         }]
