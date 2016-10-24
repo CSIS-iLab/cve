@@ -2,19 +2,19 @@ $(function () {
     $('#Container').highcharts({
         chart: {
             type: 'column',
-            backgroundColor: '#353535',
+            backgroundColor: '#ffffff',
              inverted: false
 
               },
               title: {
-                text: 'Is VE the product of radical fundamentalists or a way to make Islam look bad?',
+                text: '',
                 style: {
                         fontFamily: 'museo sans',
                         color:'#fff'
                     }
               },
               subtitle: {
-                text: 'Source: CSIS CVE | Mark Penn',
+                text: '',
                 style: {
                         fontFamily: 'museo sans',
                         color:'#fff'
@@ -33,7 +33,7 @@ $(function () {
    gridLineWidth: false,
   labels: {
     style: {
-           color: "#fff"
+           color: "#353535"
        }
        },
        min: 0,
@@ -44,7 +44,7 @@ $(function () {
   title: {
     text: 'Position (%)',
     style: {
-           color: "#fff"
+           color: "#353535"
        }
   },
 
@@ -52,10 +52,10 @@ $(function () {
 legend: {
   enabled: false,
   itemHoverStyle: {
-          color: '#ffffff'
+          color: '#353535'
       },
 itemStyle: {
-          color: '#fff',
+          color: '#353535',
           fontWeight: 'light'
   },
 
@@ -69,14 +69,14 @@ itemStyle: {
 
           labels: {
     style: {
-           color: "#fff"
+           color: "#353535"
        }
        },
     title: {
       enabled: true,
       text: 'Country',
       style: {
-             color: "#fff"
+             color: "#353535"
          }
     },
             categories: ['US', 'UK', 'France', 'India', 'China','Turkey','Indonesia','Egypt']
