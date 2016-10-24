@@ -37,7 +37,7 @@ $(function () {
        }
        },
        min: 0,
-       max: 100,
+       max: 80,
        tickInterval: 10,
        lineWidth: 1,
 
