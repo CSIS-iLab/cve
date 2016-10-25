@@ -1,6 +1,6 @@
 $(function() {
   Highcharts.setOptions({
-      colors: ['#0faa91', '#0065a4', '#353535', '#61884D', '#C9AC4D']
+      colors: ['#0faa91', '#0095AB', '#353535', '#61884D', '#C9AC4D']
   });
   $('#hcContainer').highcharts({
     data: {
@@ -15,7 +15,7 @@ $(function() {
         plotShadow: true
       },
       credits: {
-        enabled: true,
+        enabled: false,
         href: "#",
         text: 'CSIS CVE | Source: Mark Penn',
         style: {
@@ -26,7 +26,7 @@ $(function() {
       },
 
       title: {
-        text: "Best Places to Combat Extremist Messages",
+        text: "",
         style: {
           color: '#404041',
           fontWeight: '500',
@@ -35,7 +35,7 @@ $(function() {
         }
       },
       subtitle: {
-        text: 'Those in majority-Muslim countries opt for schools - particularly in Turkey - while other nations are slightly more likely to see mosques and other religious places as being in the best position.',
+        text: '',
         style: {
           color: '#353535',
         }
