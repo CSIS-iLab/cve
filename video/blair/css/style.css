@@ -1,27 +1,31 @@
-#videosList {
- max-width: 200;
-  overflow: hidden;
+
+.player {
+
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 900px;
+    min-width: 320px;
+}
+.mediaplayer {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16/9 */
+}
+.mediaplayer video, .mediaplayer .polyfill-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
-.video {
-  background-image: url("https://csis-ilab.github.io/cve/video/blair/blair.png");
-   background-repeat: no-repeat;
-  height: 300px;
-  margin-bottom: 50px;
-}
+@media only screen and (max-width: 1400px) {
 
-/* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
-    display:none !important;
-}
-
-@media only screen and (max-width: 1000px) {
-
-video {
-display:none;
-  }
-.video {
-      background-position: center;
+body {
+  background-image: none;
 }
 
 }
