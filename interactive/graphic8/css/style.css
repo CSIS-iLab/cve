@@ -27,8 +27,8 @@
   cx: 50%;
   cy: 50%;
   fill: none;
-  stroke: #ffffff;
-  stroke-width: 4px;
+  stroke: #353535;
+  stroke-width: 6px;
 }
 .chart-two svg .circle-foreground {
   stroke: #e51d26;
@@ -46,7 +46,7 @@
   height: 2.5rem;
   overflow: hidden;
   text-align: center;
-  color: #ffffff;
+  color: #353535;
   position: absolute;
   top: calc(50% - 1.25rem);
   left: 0;
@@ -100,11 +100,11 @@
   cx: 50%;
   cy: 50%;
   fill: none;
-  stroke: #ffffff;
-  stroke-width: 4px;
+  stroke: #353535;
+  stroke-width: 6px;
 }
 .chart-three svg .circle-foreground {
-  stroke: #65c8cd;
+  stroke: #0095AB;
   stroke-dasharray: 743.552px 929.44px;
   stroke-dashoffset: 743.552px;
   stroke-linecap: round;
@@ -119,7 +119,7 @@
   height: 2.5rem;
   overflow: hidden;
   text-align: center;
-  color: #ffffff;
+  color: #353535;
   position: absolute;
   top: calc(50% - 1.25rem);
   left: 0;
@@ -158,7 +158,7 @@
 }
 /* codepen styling only */
 body {
-  background: #272b31;
+  background: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -179,6 +179,6 @@ figure {
 
 figcaption {
   font-family: 'Abel', sans-serif;
-  color: white;
+  color: #353535;
   font-size: 30px;
 }
