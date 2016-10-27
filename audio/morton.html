@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sound Cite</title>
+
+<link href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
+<script type='text/javascript' src='https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+
+<style>
+blockquote, .paragraphs--quote__text {
+    border-left: 4px solid #0065a4;
+    color: #004165;
+    font-family: Calluna,"Liberation Serif","Times New Roman",Times,serif;
+    font-size: 1.29412em;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 1.27273em 1.36364em;
+    padding-left: 1.27273em;
+    text-rendering: optimizeLegibility;
+}
+
+.soundcite,
+.soundcite-loaded {
+    padding-left: 5px;
+
+    cursor: pointer;
+    transition: background-color .25s;
+}
+.soundcite-loaded:hover {
+    background: #e6e7e8;
+}
+.soundcite:before,
+.soundcite-loaded:before {
+    display: inline-block;
+    content: "";
+    vertical-align: -10%;
+
+}
+.soundcite-play:before,
+.soundcite-pause:before  {
+    transition: border-left-color .25s;
+}
+.soundcite:before,
+.soundcite-play:before {
+    font-size: 2.9em;
+    position: relative;
+    top: -.22em;
+    border: 0.4em solid transparent;
+    border-left: 0.70em solid #004165 !important;
+}
+.soundcite-play:hover:before {
+    border-left-color: #222;
+}
+.soundcite-pause:before {
+    font-size: 2.7em;
+    position: relative;
+    top: -.22em;
+    height: .90em;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: .70em double #000;
+    border-right: .4em solid transparent;
+}
+.soundcite-pause:hover:before {
+    border-left-color: #004165 !important;
+}
+</style>
+
+
+</head>
+<body>
+<span class="soundcite" data-url="https://csis-ilab.github.io/cve/audio/morton_01.mp3" data-start="0" data-end="25000" data-plays="1">
+
+<blockquote style="margin-top:50px;">"But more importantly, what we don't talk about is the symbiotic relationship between right wing anti-Islamist reactions to groups like ISIS and the terrorists' objectives and strategies. One of the things that they want is an overreaction so that they can present the United States as if its people are waging a war on Islam." </blockquote>
+
+</span>
+
+
+</body>
+</html>
