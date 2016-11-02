@@ -8,7 +8,7 @@
 
 <style>
 blockquote, .paragraphs--quote__text {
-    border-left: 4px solid #0065a4;
+   border-left: 4px solid #0065a4;
     color: #004165;
     font-family: Calluna,"Liberation Serif","Times New Roman",Times,serif;
     font-size: 1.29412em;
@@ -16,16 +16,16 @@ blockquote, .paragraphs--quote__text {
     line-height: 1.5;
     margin: 0 1.27273em 1.36364em;
     padding-left: 1.27273em;
+    width: 80%;
     text-rendering: optimizeLegibility;
-     width: 80%;
 }
 
 .soundcite,
 .soundcite-loaded {
     padding-left: 5px;
-    padding-top:10px !important;
+   padding-top:10px !important;
     cursor: pointer;
-    transition: background-color .25s;
+    transition: background-color .55s;
 }
 .soundcite-loaded:hover {
     background: #e6e7e8;
@@ -39,11 +39,10 @@ blockquote, .paragraphs--quote__text {
 }
 .soundcite-play:before,
 .soundcite-pause:before  {
-    transition: border-left-color 1;
+    transition: border-left-color .25s;
 }
 .soundcite:before,
 .soundcite-play:before {
-    font-size: 2.5em;
     position: relative;
     border: 0.4em solid transparent;
     border-left: 0.70em solid #004165 !important;
@@ -52,7 +51,6 @@ blockquote, .paragraphs--quote__text {
     border-left-color: #0faa91 !important;
 }
 .soundcite-pause:before {
-  font-size: 2em;
 position: relative;
 height: 0.8em;
 border-top: 0;
@@ -68,7 +66,7 @@ border-right: .4em solid transparent;
 
 </head>
 <body>
-<span class="soundcite" data-url="https://csis-ilab.github.io/cve/audio/Lewis.mp3" data-start="0" data-end="40000" data-plays="1"><blockquote style="margin-top:25px;">"Sed turpis diam, tempor et scelerisque sed, ultrices eu enim. Pellentesque varius augue sed libero lacinia fermentum. Duis tincidunt finibus interdum. Mauris fringilla condimentum dolor. Nam vestibulum mi eu urna vulputate consectetur. Nam elit tortor, mollis nec odio a, mattis auctor risus. Integer commodo lobortis sodales. Nullam orci nunc, condimentum ut risus nec, lobortis condimentum sem." </blockquote></span>
+<blockquote style="margin-top:25px;"><span class="soundcite" data-url="https://csis-ilab.github.io/cve/audio/Lewis.mp3" data-start="0" data-end="40000" data-plays="1">"Sed turpis diam, tempor et scelerisque sed, ultrices eu enim. Pellentesque varius augue sed libero lacinia fermentum. Duis tincidunt finibus interdum. Mauris fringilla condimentum dolor. Nam vestibulum mi eu urna vulputate consectetur. Nam elit tortor, mollis nec odio a, mattis auctor risus. Integer commodo lobortis sodales. Nullam orci nunc, condimentum ut risus nec, lobortis condimentum sem."</span> </blockquote>
 
 
 </body>
