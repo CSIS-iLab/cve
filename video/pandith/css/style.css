@@ -29,3 +29,11 @@ body {
 }
 
 }
+
+}
+
+@media only screen and (max-width: 650px) {
+.mediaplayer video, .mediaplayer .polyfill-video {
+  height:auto !important;
+
+}}
