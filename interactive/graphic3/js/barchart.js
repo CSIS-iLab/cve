@@ -17,18 +17,18 @@ $(function() {
       credits: {
         enabled: true,
         href: "#",
-        text: 'CSIS CVE | Source: Mark Penn',
+        text: '',
         style: {
           cursor: 'pointer',
           color: '#353535',
           fontSize: '10px'
         }
       },
-    
+
      title: {
         text:''
         },
-    
+
       xAxis: {
         labels: {
           style: {
