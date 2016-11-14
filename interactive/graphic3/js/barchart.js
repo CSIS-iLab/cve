@@ -80,7 +80,7 @@ $(function() {
       },
       legend: {
         title: {
-          text: 'Source<br/><span style="font-size: 9px; color: #666; font-weight: normal">(Click to hide)</span>',
+          text: 'Key<br/><span style="font-size: 9px; color: #666; font-weight: normal">(Click to hide)</span>',
           style: {
             fontStyle: 'italic',
             color: '#353535'
