@@ -22,7 +22,7 @@ $(function () {
         },
 
         yAxis: {
-            categories: ['Cracking down on criminal activities that help extremists raise money', 'Requiring all citizens and visitors to have ID cards', 'Asking the internet companies to shut down all content from radical extremist groups', 'Supporting community-led efforts in each country that counter extremists’ messaging and ideology', 'Teaching why violent extremism is wrong in every school'],
+            categories: ['Cracking down on criminal activities that help extremists raise money', 'Requiring all citizens and visitors to have ID cards', 'Asking the internet companies to shut down all content from radical extremist groups', 'Supporting community-led efforts that counter extremists’ messaging and ideology', 'Teaching why violent extremism is wrong in every school'],
             title: null
         },
 
@@ -85,7 +85,7 @@ $(function () {
         },
 
         yAxis: {
-            categories: ['Cracking down on criminal activities that help extremists raise money', 'Requiring all citizens and visitors to have ID cards', 'Asking the internet companies to shut down all content from radical extremist groups', 'Supporting community-led efforts in each country that counter extremists’ messaging and ideology', 'Teaching why violent extremism is wrong in every school'],
+            categories: ['Cracking down on criminal activities that help extremists raise money', 'Requiring all citizens and visitors to have ID cards', 'Asking the internet companies to shut down all content from radical extremist groups', 'Supporting community-led efforts that counter extremists’ messaging and ideology', 'Teaching why violent extremism is wrong in every school'],
             title: null
         },
 
